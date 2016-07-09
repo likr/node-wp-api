@@ -1,12 +1,12 @@
 const angular = require('angular')
 const AppComponent = require('./app.component')
-const PostComponent = require('./post.component')
-const PostsComponent = require('./posts.component')
+const PostDetailComponent = require('./post-detail.component')
+const PostListComponent = require('./post-list.component')
 
 module.exports = angular
   .module('app.components', [
     AppComponent,
-    PostComponent,
-    PostsComponent
+    PostDetailComponent,
+    PostListComponent
   ])
   .name
